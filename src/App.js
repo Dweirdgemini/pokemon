@@ -2,7 +2,7 @@
 
 
 import React,{ useEffect, useState } from "react";
-import PokemonThumbnail from "./Components/PokemonThumbnail";
+import PokemonThumbnail from "./components/PokemonThumbnail";
 
 
 function App() {
