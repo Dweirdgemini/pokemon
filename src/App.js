@@ -29,7 +29,7 @@ function App() {
 
   return (
     <div className="app-container">
-     <h1>POKEMON DATABASE .</h1>
+     <h1>POKEMON DATA.</h1>
     
      <div className="pokemon-container">
        <div className="all-container">
