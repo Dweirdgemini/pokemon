@@ -25,11 +25,11 @@ function App() {
   }
   useEffect(()=>{
     getAllPokemons()
-  },[])
+  })
 
   return (
     <div className="app-container">
-     <h1>POKEMON DATA.</h1>
+     <h1>POKEMON APP.</h1>
     
      <div className="pokemon-container">
        <div className="all-container">
