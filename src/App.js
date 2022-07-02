@@ -15,7 +15,7 @@ function App() {
    
     function createPokemonObject(result){
       result.forEach(async (pokemon) => {
-        const res = await fetch(`https://pokeapi.co/api/v2/pokemon/ditto${pokemon.name}`)
+        const res = await fetch(`${pokemon.name}`)
         const data = await res.json();
         setAllPokemons(currentList => [...currentList,data])
       });
